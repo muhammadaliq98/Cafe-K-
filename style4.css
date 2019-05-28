@@ -1,0 +1,131 @@
+*{
+	margin: 5;
+	padding: 20; 
+}
+html,
+.body {
+	background-image:url('../New folder/Pics/dbfba4feb50c883241ee10bb84c5def8-700(1).jpg'); 
+	opacity:0.9;
+}
+.navbar{
+    width: 100%; 
+    height: 77px;
+    margin-left: 7px;
+    margin-right: 9px;
+    background-color:black;
+    line-height: 90%;
+}
+.container{
+	width: 100%;
+}
+.logo {
+	float: left;
+    display:inline;
+    vertical-align:top;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;    
+}
+.menu{
+	float: right;
+}
+.menu li {
+	float: left;
+	width: 100px;
+	height:60px;
+	line-height: 50px;
+	text-align: center;
+	list-style: none;
+}		
+.menu li a{
+	color: #000;
+	text-decoration: none;
+	font-family: calibri;
+	text-transform: middle;
+	display: inline;
+	color: yellow;
+}
+.menu li:hover{
+	background: red;
+	height: 50px;
+}
+.menu li a:hover{
+	color: #fff;
+	height: 80px;
+}
+.menu li ul{
+	display: block;
+}
+.footer {
+   position: inherit;
+   left: 0;
+   bottom: 0;
+   width: 100%
+   background-color: red;
+   color: white;
+   text-align: center;
+   margin-bottom: 100px;
+}
+.div1{
+    position: absolute;
+    top: 190px;
+    left: 191px;
+    width: 260px;
+    padding: 35px;
+    border: solid 3px red;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 20px;
+}
+.div1 > label {
+	font-size: 17px;
+}
+.address_box{
+	position: absolute;
+	display: inline-table;
+	top: 128px;
+	height: 69%;
+	left: 630px;
+	width: 260px;
+	padding: 30px;
+	border: solid 3px red;
+	border-radius: 5px;
+	background: #fff;
+}
+.footer {
+   position: fixed;
+   height: 125px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   margin-top: 100px;
+}
+.footer > ul {
+	list-style: none;
+}
+.footer > ul > li {
+	display: inline;
+	list-style: none;
+}
+.footer > ul > li > a{
+	font-size: 30px;
+	margin: 0px 10px;
+	padding-top: 30px;
+}
+.address_footer, .copyright_footer{
+	text-align: center;
+	margin-bottom: -120px;
+	margin-right: 26%;
+}
+.address_footer > h4 > i {
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: large;
+    text-rendering: auto;
+}
+.div1 > h2 {
+	margin-block-start: 1em;
+
+}
